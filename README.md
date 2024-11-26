@@ -1,4 +1,4 @@
-# Cadastro de Usuários
+# Cadastro de Usuários 📋
 
 Este é um projeto simples de cadastro de usuários, criado para praticar e aplicar meus conhecimentos em **React** para o frontend e **Node.js/Express** para o backend, utilizando o **MongoDB** como banco de dados.
 
@@ -59,11 +59,3 @@ Aqui estão alguns dos principais aprendizados que tirei deste projeto:
 - **Node.js e Express**: Fiquei mais confortável com a criação de servidores e APIs. Aprendi como lidar com rotas, middleware e como retornar respostas JSON para o frontend.
 
 - **Trabalhando com Banco de Dados**: O Prisma facilitou a interação com o MongoDB, proporcionando uma maneira simples de escrever queries e garantir que a integridade dos dados seja mantida. A ferramenta simplificou o processo de comunicação com o banco de dados, tornando o desenvolvimento mais ágil e organizado.
-
----
-
-## Conclusão
-
-Este projeto foi uma excelente oportunidade de aplicar e expandir meus conhecimentos em **React**, **Node.js**, **Express.js**, **MongoDB** e **Prisma**. Ao longo do desenvolvimento, aprendi muito sobre como as duas partes (frontend e backend) se comunicam e como gerenciar dados de forma eficiente.
-
-Estou bastante satisfeita com o resultado e ansiosa para continuar evoluindo o projeto, adicionando novas funcionalidades e melhorias!
