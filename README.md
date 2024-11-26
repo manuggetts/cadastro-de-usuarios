@@ -2,7 +2,7 @@
 
 Este é um projeto simples de cadastro de usuários, criado para praticar e aplicar meus conhecimentos em **React** para o frontend e **Node.js/Express** para o backend, utilizando o **MongoDB** como banco de dados.
 
-**Link para o projeto hospedado**: [Cadastro de Usuários - Projeto Hospedado](https://cadastro-de-usuarios-xtav.onrender.com)
+**Link para o projeto hospedado**: [Cadastro de Usuários - Projeto Hospedado](https://cadastro-de-usuarios-ruby.vercel.app)
 
 ---
 
