@@ -1,4 +1,4 @@
-# Cadastro de Usuários 📋
+# Cadastro de usuários 📋
 
 Este é um projeto de CRUD simples de cadastro de usuários, criado para praticar e aplicar meus conhecimentos em **React** para o frontend e **Node.js/Express** para o backend, utilizando o **MongoDB** como banco de dados.
 
@@ -6,13 +6,13 @@ Este é um projeto de CRUD simples de cadastro de usuários, criado para pratica
 
 ---
 
-## Objetivo do Projeto
+## Objetivo do projeto
 
 O principal objetivo deste projeto foi criar uma aplicação web onde é possível cadastrar, listar, editar e excluir usuários. A aplicação foi dividida em duas partes: o **frontend** (em React) e o **backend** (em Node.js com Express). A estrutura do projeto está organizada de forma simples, com as pastas `cadastro` para o frontend e `API` para o backend.
 
 ---
 
-## Tecnologias Usadas
+## Tecnologias usadas
 
 ### Frontend
 - **React**: Usado para criar a interface do usuário. Aprendi muito sobre a gestão de estados com hooks (`useState`, `useEffect`) e como trabalhar com componentes funcionais.
@@ -29,7 +29,7 @@ O principal objetivo deste projeto foi criar uma aplicação web onde é possív
 
 ## Funcionalidades
 
-Aqui estão algumas das principais funcionalidades que implementei:
+Aqui estão as funcionalidades que implementei:
 
 1. **Cadastro de Usuário**: O usuário pode preencher um formulário com nome, idade e email, e esses dados são enviados para o backend para serem armazenados no banco de dados.
 2. **Exibição de Usuários**: A lista de usuários cadastrados é exibida na tela. Os dados são recebidos do backend e renderizados na interface do frontend.
@@ -38,24 +38,18 @@ Aqui estão algumas das principais funcionalidades que implementei:
 
 ---
 
-## Desafios e Aprendizados
+## Desafios e aprendizados
 
-Durante o desenvolvimento, passei por alguns desafios que foram ótimas oportunidades de aprendizado:
+Durante o desenvolvimento, encontrei alguns desafios que acabaram virando boas oportunidades de aprendizado. Por exemplo, no começo foi complicado configurar a comunicação entre o frontend e o backend. Tive que garantir que as URLs estivessem certinhas, tanto no desenvolvimento quanto na produção.
 
-- **Configuração do Ambiente**: No início, tive dificuldades para configurar a comunicação entre o frontend e o backend. Tive que garantir que as URLs estivessem corretas tanto no ambiente de desenvolvimento quanto de produção.
-
-- **Prisma e MongoDB**: Usar o Prisma com o MongoDB foi interessante. Embora o Prisma seja mais comum em bancos relacionais, ele também funciona bem com o MongoDB, o que facilitou o trabalho com o banco de dados. No começo, a sintaxe foi um pouco difícil, mas depois ficou mais tranquilo.
-
-- **Requisições com Axios**: Aprender a fazer as requisições entre o frontend e o backend com o Axios foi bem útil. Isso me ajudou a entender melhor como os dados são trocados entre o cliente e o servidor.
+Trabalhar com **Prisma** e **MongoDB** também foi um processo interessante. O Prisma é mais usado com bancos relacionais, mas ele funcionou bem com o Mongo, o que ajudou a facilitar o trabalho com o banco de dados.
 
 ---
 
-## O que Aprendi
+## O que aprendi
 
-Aqui estão alguns dos principais aprendizados que tirei deste projeto:
+- **React**: Aprendi muito sobre gerenciar estados com hooks e como melhorar a organização do código com componentes menores e reutilizáveis. A renderização dos componentes ficou mais intuitiva também.
 
-- **React**: Melhorei meu entendimento sobre como funciona a renderização de componentes no React, como gerenciar estados de forma eficiente com hooks e como organizar melhor o código com componentes menores e reutilizáveis.
-  
-- **Node.js e Express**: Fiquei mais confortável com a criação de servidores e APIs. Aprendi como lidar com rotas, middleware e como retornar respostas JSON para o frontend.
+- **Node.js e Express**: Ganhei mais confiança criando APIs e servidores, lidando com rotas e middleware, e também aprendi a retornar respostas em JSON para o frontend.
 
-- **Trabalhando com Banco de Dados**: O Prisma facilitou a interação com o MongoDB, proporcionando uma maneira simples de escrever queries e garantir que a integridade dos dados seja mantida. A ferramenta simplificou o processo de comunicação com o banco de dados, tornando o desenvolvimento mais ágil e organizado.
+- **Banco de Dados**: O Prisma foi um grande aliado para facilitar o trabalho com o MongoDB, tornando as queries mais simples e garantindo que os dados se mantivessem organizados.
