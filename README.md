@@ -1,55 +1,51 @@
-# Cadastro de usuários 📋
+# Cadastro de Usuários 📋
 
-Este é um projeto de CRUD simples de cadastro de usuários, criado para praticar e aplicar meus conhecimentos em **React** para o frontend e **Node.js/Express** para o backend, utilizando o **MongoDB** como banco de dados.
-
-**Link para o projeto hospedado**: [Cadastro de Usuários - Projeto Hospedado](https://cadastro-de-usuarios-ruby.vercel.app)
+Este é um projeto de CRUD simples para cadastro de usuários com o intuito de praticar e aplicar conhecimentos em **React** para o frontend e **Node.js/Express** para o backend, com o banco de dados **MongoDB**.
+**O projeto está hospedado no link**: [Cadastro de Usuários - Projeto Hospedado](https://cadastro-de-usuarios-ruby.vercel.app)
 
 ---
 
 ## Objetivo do projeto
 
-O principal objetivo deste projeto foi criar uma aplicação web onde é possível cadastrar, listar, editar e excluir usuários. A aplicação foi dividida em duas partes: o **frontend** (em React) e o **backend** (em Node.js com Express). A estrutura do projeto está organizada de forma simples, com as pastas `cadastro` para o frontend e `API` para o backend.
+O principal objetivo deste projeto foi criar uma aplicação web que permita cadastrar, listar, editar e excluir usuários. O projeto foi dividido em duas partes: o **frontend**, desenvolvido em React, e o **backend**, construído com Node.js e Express. A estrutura do projeto está organizada com as pastas `cadastro` para o frontend e `API` para o backend.
 
 ---
 
-## Tecnologias usadas
+## Tecnologias utilizadas
 
 ### Frontend
-- **React**: Usado para criar a interface do usuário. Aprendi muito sobre a gestão de estados com hooks (`useState`, `useEffect`) e como trabalhar com componentes funcionais.
-- **Axios**: Usei o Axios para enviar e receber dados do backend, como cadastrar e listar os usuários.
-- **Vite**: Ferramenta de build para o React, que é muito mais rápida que o Webpack e ajudou a otimizar o processo de desenvolvimento.
+- **React**: Utilizado para construir a interface do usuário. O projeto foi uma oportunidade para aprofundar meus conhecimentos sobre gestão de estados com hooks (`useState`, `useEffect`) e a criação de componentes funcionais.
+- **Axios**: Usado para comunicação com o backend, realizando requisições HTTP para cadastrar e listar usuários.
+- **Vite**: Ferramenta de build para React, que proporciona uma experiência de desenvolvimento mais rápida e eficiente em comparação com o Webpack.
 
 ### Backend
-- **Node.js**: O backend foi desenvolvido em Node.js, que executa o código JavaScript no servidor.
-- **Express**: Para facilitar a criação das rotas da API e o gerenciamento das requisições HTTP.
-- **Prisma**: Utilizei o Prisma como ORM para interagir com o banco de dados **MongoDB**. Foi muito útil para tornar as consultas ao banco mais simples e seguras.
-- **MongoDB**: Banco de dados utilizado para armazenar as informações dos usuários (nome, idade, email). MongoDB é uma base de dados NoSQL que armazena dados em formato de documentos JSON, proporcionando flexibilidade e escalabilidade.
+- **Node.js**: Utilizado para rodar o código JavaScript no servidor, facilitando a criação de APIs e o gerenciamento de requisições.
+- **Express**: Framework para Node.js que simplifica a criação de rotas e o gerenciamento das requisições HTTP.
+- **Prisma**: ORM utilizado para interagir com o banco de dados **MongoDB**, facilitando a realização de consultas e a manutenção dos dados de maneira segura e eficiente.
+- **MongoDB**: Banco de dados NoSQL utilizado para armazenar as informações dos usuários, como nome, idade e e-mail, com flexibilidade e escalabilidade.
 
 ---
 
 ## Funcionalidades
 
-Aqui estão as funcionalidades que implementei:
-
-1. **Cadastro de Usuário**: O usuário pode preencher um formulário com nome, idade e email, e esses dados são enviados para o backend para serem armazenados no banco de dados.
-2. **Exibição de Usuários**: A lista de usuários cadastrados é exibida na tela. Os dados são recebidos do backend e renderizados na interface do frontend.
-3. **Edição de Usuário**: O usuário pode editar seus dados (nome, idade, email) e salvar as alterações, que são refletidas no banco de dados.
+1. **Cadastro de Usuário**: O usuário pode preencher um formulário com nome, idade e e-mail. Esses dados são enviados para o backend e armazenados no banco de dados.
+2. **Exibição de Usuários**: A lista de usuários cadastrados é exibida na tela, com os dados recebidos do backend.
+3. **Edição de Usuário**: O usuário pode editar seus dados (nome, idade e e-mail) e salvar as alterações, que são refletidas no banco de dados.
 4. **Exclusão de Usuário**: O usuário pode ser removido da lista, tanto no frontend quanto no banco de dados.
 
 ---
 
 ## Desafios e aprendizados
 
-Durante o desenvolvimento, encontrei alguns desafios que acabaram virando boas oportunidades de aprendizado. Por exemplo, no começo foi complicado configurar a comunicação entre o frontend e o backend. Tive que garantir que as URLs estivessem certinhas, tanto no desenvolvimento quanto na produção.
+Durante o desenvolvimento, encontrei alguns desafios, mas também grandes oportunidades de aprendizado:
 
-Trabalhar com **Prisma** e **MongoDB** também foi um processo interessante. O Prisma é mais usado com bancos relacionais, mas ele funcionou bem com o Mongo, o que ajudou a facilitar o trabalho com o banco de dados.
+- **Comunicação entre o Frontend e o Backend**: Inicialmente, tive dificuldades em configurar a comunicação entre as duas partes. A principal tarefa foi garantir que as URLs das requisições estivessem corretas tanto em desenvolvimento quanto em produção.
+- **Trabalhando com Prisma e MongoDB**: Embora o Prisma seja mais comumente usado com bancos relacionais, consegui utilizá-lo com sucesso para o MongoDB. Isso simplificou bastante as consultas e garantiu a organização dos dados no banco de dados.
 
 ---
 
 ## O que aprendi
 
-- **React**: Aprendi muito sobre gerenciar estados com hooks e como melhorar a organização do código com componentes menores e reutilizáveis. A renderização dos componentes ficou mais intuitiva também.
-
-- **Node.js e Express**: Ganhei mais confiança criando APIs e servidores, lidando com rotas e middleware, e também aprendi a retornar respostas em JSON para o frontend.
-
-- **Banco de Dados**: O Prisma foi um grande aliado para facilitar o trabalho com o MongoDB, tornando as queries mais simples e garantindo que os dados se mantivessem organizados.
+- **React**: Melhorei minha habilidade em gerenciar estados usando hooks e aprendi a criar componentes mais organizados e reutilizáveis. A renderização dos componentes se tornou mais intuitiva.
+- **Node.js e Express**: Aprimorei minha confiança na criação de APIs e servidores, trabalhando com rotas, middleware e retornando respostas em JSON para o frontend.
+- **Banco de Dados**: O uso do Prisma com MongoDB me permitiu realizar queries de maneira mais simples e eficiente, além de garantir uma boa organização dos dados.
